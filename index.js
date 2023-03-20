@@ -27,6 +27,6 @@ inquirer
     }
 
     fs.writeFile("./output/logo.svg", styledShape, (err) => {
-      err ? console.log(err) : console.log("Success!");
+      err ? console.log(err) : console.log("Generated logo.svg");
     });
   });
