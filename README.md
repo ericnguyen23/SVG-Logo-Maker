@@ -15,6 +15,10 @@ This application lets the user generate a SVG logo by filling out prompts from t
 - Respond to the prompts
 - Logo will be generated as logo.svg in the ./output folder
 
+## Test
+
+To test, run `npm test` in your CLI
+
 ## Credits
 
 Eric Nguyen
