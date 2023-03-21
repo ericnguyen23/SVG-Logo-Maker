@@ -7,7 +7,12 @@ const Square = require("./lib/square.js");
 inquirer
   .prompt([
     { name: "text", message: "SVG text (max 3 chars):" },
-    { name: "shape", message: "SVG shape:" },
+    {
+      type: "list",
+      name: "shape",
+      message: "SVG shape:",
+      choices: ["circle", "square", "triangle"],
+    },
     { name: "color", message: "SVG color:" },
   ])
   .then((data) => {
