@@ -19,6 +19,10 @@ This application lets the user generate a SVG logo by filling out prompts from t
 
 To test, run `npm test` in your CLI
 
+## Video
+
+[Link to video demo](https://drive.google.com/file/d/16NGzHkXDJ6e_YUR5kWnZP815NTIsNI4w/view)
+
 ## Credits
 
 Eric Nguyen
